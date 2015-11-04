@@ -1,2 +1,3 @@
-# lisa-and-bill
-Lisa &amp; Bill's wedding website
+# Lisa &amp; Bill's wedding website
+LisaAndBill.com
+
