@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div class="jumbotron" id="home">
-	<div class="container">
-		<h1>Lisa &amp; Bill</h1>
-		<p>Are Getting Married!</p>
-		<p>September 17, 2016</p>
+<div class="jumbotron page-section-bg-img section-home" id="home">
+	<div class="container text-center">
+		<h1 class="section-heading">Lisa &amp; Bill</h1>
+		<h3 class="section-sub-heading heading-flourish"><span>Are Getting</span></h3>
+		<h1 class="emphasis-heading">MARRIED!</h1>
+		<h3 class="section-sub-heading">September 17th, 2016</h3>
 	</div>
 </div>
+<div class="page-section-sep"></div>
 {% assign pages = site.pages | sort:"order" %}
 {% for page in pages %}
 	{% if page.title %}
-		<section class="page-section" id="{{ page.section }}">
-			{{ page.content }}
-		</section>
+		{{ page.content }}
 	{% endif %}
 {% endfor %}

@@ -1,0 +1,13 @@
+//colors
+$brand-primary: #ed5565;
+$brand-accent: #93ccea;
+$body-bg: #fafafa;
+$navbar-default-bg: $body-bg;
+$navbar-default-link-hover-color: $brand-primary;
+$navbar-default-link-active-color: $brand-primary;
+$navbar-default-link-active-bg: darken($navbar-default-bg, 3%);
+
+//fonts
+$font-size-base: 16px;
+$font-family-serif: "EB Garamond", Times, serif;
+$font-family-base: $font-family-serif;

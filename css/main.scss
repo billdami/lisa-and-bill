@@ -3,9 +3,12 @@
 ---
 @charset "utf-8";
 
-// Our variables
+//web fonts: EB Garamond, Dancing Script, Raleway
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Dancing+Script:400,700|Raleway:400,900);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables";
 @import "bootstrap";
+@import "type";
 @import "layout";
 @import "sections";

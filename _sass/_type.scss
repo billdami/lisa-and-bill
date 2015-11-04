@@ -1,0 +1,101 @@
+.text-inverse {
+	color: #fff;
+}
+
+.section-heading,
+.jumbotron .section-heading {
+	color: #fff;
+	font-family: "Dancing Script", cursive;
+	font-weight: 700;
+	text-shadow: 2px 1px 0 rgba(#000, 0.2);
+
+	&.dark {
+		color: #666;
+	}
+}
+
+.section-sub-heading,
+.jumbotron .section-sub-heading {
+	color: #fff;
+	text-shadow: 2px 1px 0 rgba(#000, 0.25);
+}
+
+.emphasis-heading,
+.jumbotron .emphasis-heading {
+	color: $brand-primary;
+	font-family: "Raleway", sans-serif;
+	font-weight: 900;
+	text-shadow: 8px 7px 0 rgba($brand-primary, 0.35);
+}
+
+.heading-flourish {
+	position: relative;
+
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		z-index: 3px;
+		top: 50%;
+		height: 2px;
+		width: 20%;
+		margin-top: 0;
+		background-color: #fff;
+		background-image: none;
+		-webkit-background-size: initial;
+		-moz-background-size: initial;
+		-ms-background-size: initial;
+		-o-background-size: initial;
+		background-size: initial;
+		background-position: top center;
+		background-repeat: no-repeat;
+    	background-attachment: initial;
+	}
+
+	&:before {
+		left: 20%;
+	}
+
+	&:after {
+		right: 20%;
+	}
+
+	span {
+		&:before,
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: 2px;
+			top: 50%;
+			height: 2px;
+			width: 20%;
+			margin-top: 0.5px;
+			margin-left: 1px;
+			background-color: rgba(0,0,0,0.25);
+			background-image: none;
+			-webkit-background-size: initial;
+			-moz-background-size: initial;
+			-ms-background-size: initial;
+			-o-background-size: initial;
+			background-size: initial;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: initial;
+		}
+
+		&:before {
+			left: 20%;
+		}
+
+		&:after {
+			right: 20%;
+		}
+	}
+}
+
+@media screen and (min-width: $screen-sm-min) {
+	.jumbotron h1, 
+	.jumbotron .h1 {
+		font-size: 120px;
+	}
+}

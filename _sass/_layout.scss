@@ -1,4 +1,26 @@
 body {
 	position: relative;
 	padding-top: 50px;
+	background-image: url("../img/bg-pattern-crossword.png");
+	background-position: top left;
+	background-repeat: repeat;
+}
+
+.navbar-fixed-top {
+	border-bottom: 0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+@media (min-width: $screen-sm-min) {
+	.navbar-nav {
+		float: none;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+	}
 }

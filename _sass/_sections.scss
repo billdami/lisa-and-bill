@@ -1,3 +1,32 @@
 .page-section {
 	padding: 50px 0;
 }
+
+.page-section-sep {
+    width: 100%;
+    height: 24px;
+    background-color: $brand-primary;
+    border: 3px solid lighten($brand-primary, 5%);
+    border-left: 0;
+    border-right: 0;
+}
+
+.page-section-bg-img {
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+}
+
+.section-home {
+	background-image: url("../img/bg-holding-hands.jpg");
+}
+
+.section-ceremony {
+	background-image: url("../img/bg-lbi-dunes.jpeg");
+}
