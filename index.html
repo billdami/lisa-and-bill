@@ -13,7 +13,7 @@ layout: default
 <div class="page-section-sep"></div>
 {% assign pages = site.pages | sort:"order" %}
 {% for page in pages %}
-	{% if page.title %}
+	{% if page.show_in_menu %}
 		{{ page.content }}
 	{% endif %}
 {% endfor %}

@@ -7,3 +7,6 @@ url: "http://lisaandbill.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# other configuration data
+simpleform_token: '0ad834d3335a1a214206263ad59e68c1'
