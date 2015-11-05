@@ -98,6 +98,23 @@
 	}
 }
 
+
+@media (max-width: $screen-xs-max) {
+	.heading-flourish {
+		&:before,
+		&:after {
+			display: none;
+		}
+
+		span {
+			&:before,
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
 @media screen and (min-width: $screen-sm-min) {
 	.jumbotron h1, 
 	.jumbotron .h1 {
