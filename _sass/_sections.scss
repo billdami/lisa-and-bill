@@ -34,3 +34,12 @@
 .section-registry {
 	background: #fff url("../img/bg-pattern-symphony.png") top left repeat;
 }
+
+.section-guest-book {
+	background: #fff url("../img/bg-pattern-arches.png") top left repeat;
+}
+
+.section-footer {
+	background: lighten($brand-primary, 8%);
+	color: #fff;
+}
